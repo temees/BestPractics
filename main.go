@@ -197,7 +197,7 @@ func main() {
 			}
 			fmt.Println(sig)
 			if sig == syscall.SIGUSR1 {
-				cr.
+				cr.Lvl -= 2
 			}
 		}
 	}
